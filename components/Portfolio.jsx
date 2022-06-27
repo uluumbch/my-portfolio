@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { MdExpandMore } from "react-icons/md";
 import { EffectCoverflow } from "swiper";
-import portfolios from "../portfolios.json";
+// import portfolios from "../portfolios.json";
 
 function Portfolio() {
-  const myportfolios = portfolios.portfolios;
+  // const myportfolios = portfolios.portfolios;
   return (
     <div id="portofolio" className="w-full scroll-mt-12">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
