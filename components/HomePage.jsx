@@ -6,8 +6,8 @@ import heroImage from "../public/assets/uluumbch.png";
 
 function HomePage() {
   return (
-    <div id="home" className="h-full w-full">
-      <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex md:flex-row flex-col-reverse md:justify-between justify-evenly items-center">
+    <div id="home" className="h-screen 3xl:h-full  w-full">
+      <div className="max-w-screen-xl mx-auto w-full h-full pt-40 p-4 flex md:flex-row flex-col-reverse md:justify-between justify-evenly items-center">
         <div className="">
           <h1 className="uppercase font-bold text-gray-700 dark:text-gray-300 md:text-7xl text-4xl relative">
             <span className="absolute md:right-8 right-5 -top-16 md:-top-10 -z-0 ">
@@ -17,9 +17,8 @@ function HomePage() {
           </h1>
 
           <p className="text-gray-600 text-xl dark:text-gray-200 max-w-sm">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            I have interesting in programming especially in back-end web
+            development. I also know and unsderstand android development.
           </p>
 
           <Link href="/#me">

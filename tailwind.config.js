@@ -13,7 +13,11 @@ module.exports = {
         "body-dark-mode": "#040508",
         "gray-dark-mode": "#383C48",
       },
+      screens: {
+        "3xl": "1600px",
+      },
     },
   },
+
   plugins: [],
 };

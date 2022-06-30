@@ -19,6 +19,10 @@ function Navbar() {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
+    setIsDarkMode(theme === "dark" ? true : false);
+  }, []);
+
+  useEffect(() => {
     const sub = window.addEventListener("scroll", () =>
       setPageScroll(window.scrollY >= 90)
     );

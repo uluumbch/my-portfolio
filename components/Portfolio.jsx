@@ -21,6 +21,13 @@ function Portfolio() {
 
         <div className="flex items-center md:flex-row flex-col-reverse md:justify-between">
           <div className="text-lg text-justify md:pl-0 p-4 md:w-1/2">
+            <h3 className="text-color-accent text-2xl">Toko Komputer</h3>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              PHP
+            </span>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              Laravel
+            </span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -31,7 +38,153 @@ function Portfolio() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-2/3 md:w-1/2">
+          <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
+            <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
+              <span className="w-3 h-3 border-2 border-transparent dark:border-red-400 rounded-full bg-red-400 dark:bg-transparent " />
+              <span className="w-3 h-3 border-2 border-transparent dark:border-yellow-400 rounded-full bg-yellow-400 dark:bg-transparent" />
+              <span className="w-3 h-3 border-2 border-transparent dark:border-green-400 rounded-full bg-green-400 dark:bg-transparent" />
+            </div>
+            <div className="bg-gray-100 dark:bg-gray-700 border-t-0 rounded-b-lg">
+              <Swiper
+                effect="coverflow"
+                grabCursor
+                centeredSlides
+                slidesPerView={1.1}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 70,
+                  depth: 480,
+                  modifier: 1,
+                  slideShadows: true,
+                }}
+                pagination
+                modules={[EffectCoverflow]}
+                className=""
+              >
+                <SwiperSlide>
+                  <Image
+                    src="/assets/portofolio1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Image
+                    src="/assets/portofolio1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Image
+                    src="/assets/portofolio1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Image
+                    src="/assets/portofolio1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Image
+                    src="/assets/portofolio1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center md:flex-row flex-col-reverse md:justify-between pt-8">
+          <div className="text-lg text-justify md:pl-0 p-4 md:w-1/2">
+            <h3 className="text-color-accent text-2xl">Infinite Scroll App</h3>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              Node JS
+            </span>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              React JS
+            </span>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              MySQL
+            </span>
+            <p>
+              This simple project is created for demonstration about fetching 1
+              milion data super fast with query limit. the goal of this project
+              is to create a REST API that can fetch data quickly even if it has
+              a lot of data. This project use Express js for Backend and React
+              for Frontend and the data stored in database using MySQL. I also
+              use Tailwind CSS for styling.
+            </p>
+          </div>
+          <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
+            <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
+              <span className="w-3 h-3 border-2 border-transparent dark:border-red-400 rounded-full bg-red-400 dark:bg-transparent " />
+              <span className="w-3 h-3 border-2 border-transparent dark:border-yellow-400 rounded-full bg-yellow-400 dark:bg-transparent" />
+              <span className="w-3 h-3 border-2 border-transparent dark:border-green-400 rounded-full bg-green-400 dark:bg-transparent" />
+            </div>
+            <div className="bg-gray-100 dark:bg-gray-700 border-t-0 rounded-b-lg">
+              <Swiper
+                effect="coverflow"
+                grabCursor
+                centeredSlides
+                slidesPerView={1.1}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 70,
+                  depth: 480,
+                  modifier: 1,
+                  slideShadows: true,
+                }}
+                pagination
+                modules={[EffectCoverflow]}
+                className=""
+              >
+                <SwiperSlide>
+                  <Image
+                    src="/assets/infinitescroll1.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Image
+                    src="/assets/infinitescroll2.png"
+                    width={1200}
+                    height={700}
+                  />
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center md:flex-row flex-col-reverse md:justify-between pt-8">
+          <div className="text-lg text-justify md:pl-0 p-4 md:w-1/2">
+            <h3 className="text-color-accent text-2xl">Bot Pengingat Sholat</h3>
+            <span className="rounded-3xl shadow-md dark:shadow-slate-600 px-3">
+              Node JS
+            </span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
             <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
               <span className="w-3 h-3 border-2 border-transparent dark:border-red-400 rounded-full bg-red-400 dark:bg-transparent " />
               <span className="w-3 h-3 border-2 border-transparent dark:border-yellow-400 rounded-full bg-yellow-400 dark:bg-transparent" />

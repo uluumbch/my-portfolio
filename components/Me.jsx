@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import React from 'react'
-import { MdExpandMore } from 'react-icons/md'
+import Link from "next/link";
+import React from "react";
+import { MdExpandMore } from "react-icons/md";
 
 const Me = () => {
-    return (
-        <div id="me" className="w-full scroll-mt-12">
+  return (
+    <div id="me" className="w-full scroll-mt-12">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
           me
@@ -12,25 +12,11 @@ const Me = () => {
 
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
-          </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
-          </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+            I am an active student at Lambung Mangkurat University Banjarmasin.
+            I have skills in and web development. some skills that I have
+            mastered such as HTML, CSS and JavaScript to make a website look. I
+            also know Node JS, PHP and Laravel to create website functionality
+            and understand REST API.
           </p>
         </div>
 
@@ -55,7 +41,7 @@ const Me = () => {
         </div>
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default Me
+export default Me;

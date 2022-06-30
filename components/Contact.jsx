@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
+import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { RiSendPlane2Fill } from "react-icons/ri";
@@ -14,23 +15,53 @@ function Contact() {
           I am open to talk regarding freelancing or full-time opportunities.
           Fell free to contact me using your preferred medium.
         </p>
-        <div className="max-w-screen-xl transition-colors ease-linear shadow-md">
+        <div className="max-w-screen-md transition-colors ease-linear shadow-md mx-auto">
           <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
             <span className="w-3 h-3 border-2 border-transparent dark:border-red-400 rounded-full bg-red-400 dark:bg-transparent " />
             <span className="w-3 h-3 border-2 border-transparent dark:border-yellow-400 rounded-full bg-yellow-400 dark:bg-transparent" />
             <span className="w-3 h-3 border-2 border-transparent dark:border-green-400 rounded-full bg-green-400 dark:bg-transparent" />
           </div>
-          <div className="bg-gray-100 dark:bg-gray-700 border-t-0 w-full rounded-b-lg">
-            <div className="w-full rounded-xl p-10 grid md:grid-cols-2 ">
-              <div className="flex my-auto gap-10 w-5/6">
-                <FaLinkedin size={50} />
-                <FaTwitter size={50} />
-                <FaFacebook size={50} />
-                <FaGithub size={50} />
+          <div className="bg-gray-100 dark:bg-gray-700 border-t-0 w-full rounded-b-lg h-full mx-auto">
+            <div className="w-full rounded-xl p-10 grid md:grid-cols-1 mx-auto">
+              <div className="flex m-auto gap-10 w-5/6 lg:hidden">
+                <a
+                  href="https://twitter.com/bchuluum"
+                  target="_blank"
+                  className="mx-auto"
+                >
+                  <FaTwitter
+                    className="text-slate-700 dark:text-slate-200"
+                    size={50}
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/bachrul-uluum/"
+                  target="_blank"
+                  className="mx-auto"
+                >
+                  <FaLinkedin
+                    className="text-slate-700 dark:text-slate-200"
+                    size={50}
+                  />
+                </a>
+                {/* <FaFacebook
+                  className="text-slate-700 dark:text-slate-200"
+                  size={50}
+                /> */}
+                <a
+                  href="https://github.com/uluumbch"
+                  target="_blank"
+                  className="mx-auto"
+                >
+                  <FaGithub
+                    className="text-slate-700 dark:text-slate-200"
+                    size={50}
+                  />
+                </a>
               </div>
-              <div className="pt-10 w-5/6">
-                <form>
-                  <div className="form-group mb-6 max-w-md">
+              <div className="pt-10 lg:pt-2 w-5/6 lg:w-full mx-auto">
+                <form className="mx-auto">
+                  <div className="form-group mb-6 max-w-md mx-auto">
                     <input
                       type="text"
                       className="form-control block
@@ -50,7 +81,7 @@ function Contact() {
                       placeholder="Name"
                     />
                   </div>
-                  <div className="form-group mb-6 max-w-md">
+                  <div className="form-group mb-6 max-w-md mx-auto">
                     <input
                       type="email"
                       className="form-control block
@@ -70,7 +101,7 @@ function Contact() {
                       placeholder="Email address"
                     />
                   </div>
-                  <div className="form-group mb-6 max-w-md">
+                  <div className="form-group mb-6 max-w-md mx-auto">
                     <textarea
                       className="
         form-control
@@ -89,8 +120,7 @@ function Contact() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-color-accent focus:outline-none
       "
-                      id="exampleFormControlTextarea13"
-                      rows="3"
+                      rows="5"
                       placeholder="Message"
                     />
                   </div>
@@ -98,7 +128,7 @@ function Contact() {
                     type="submit"
                     className="
       flex
-      max-w-md
+      mx-auto
       px-6
       py-2.5
       bg-color-accent
@@ -116,7 +146,7 @@ function Contact() {
       duration-150
       ease-in-out"
                   >
-                    Send <RiSendPlane2Fill className="ml-2 my-auto" />
+                    Send <RiSendPlane2Fill className="ml-2 m-auto" />
                   </button>
                 </form>
               </div>
