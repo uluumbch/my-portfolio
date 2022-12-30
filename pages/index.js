@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import HomePage from "../components/HomePage";
@@ -9,12 +8,7 @@ import SocialLinks from "../components/SocialLinks";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Bachrul Uluum</title>
-        <meta name="description" content="Bachrul Uluum's Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
-      
-      </Head>
+     
       <SocialLinks />
       <HomePage />
       <Portfolio />

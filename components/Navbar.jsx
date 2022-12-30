@@ -20,6 +20,7 @@ function Navbar() {
 
   useEffect(() => {
     setIsDarkMode(theme === "dark" ? true : false);
+    setTheme(theme === "dark" ? "light" : "dark");
   }, []);
 
   useEffect(() => {

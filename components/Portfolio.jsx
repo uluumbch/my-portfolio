@@ -29,13 +29,8 @@ function Portfolio() {
               Laravel
             </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              was built in laravel and tailwind CSS. This project about online
+              catalog in Computer Store. Created for college project.
             </p>
           </div>
           <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
@@ -175,13 +170,18 @@ function Portfolio() {
               Node JS
             </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              A simple bot that can send messages automatically to telegram
+              groups. The bot will send a message (in the form of an image)
+              based on the prayer times that day. Why use Bots?
+              <br />
+              Bots can send messages automatically according to the time we
+              specify.
+              <br />
+              It doesn't take huge resources to be able to run Bot on local
+              server
+              <br />
+              Bots don't have phone numbers like regular accounts. So it is
+              impossible to get spam.
             </p>
           </div>
           <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
