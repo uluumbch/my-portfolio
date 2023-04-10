@@ -7,16 +7,18 @@ const Me = () => {
     <div id="me" className="w-full scroll-mt-12">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-          me
+          about me
         </h2>
 
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-2xl mx-auto">
-            I am an active student at Lambung Mangkurat University Banjarmasin.
-            I have skills in and web development. some skills that I have
-            mastered such as HTML, CSS and JavaScript to make a website look. I
-            also know Node JS, PHP and Laravel to create website functionality
-            and understand REST API.
+            As an active student at Lambung Mangkurat University Banjarmasin, I am passionate about web development, particularly in the field of back-end development. 
+            <br />
+            <br />
+One of my primary areas of expertise is HTML, CSS, and JavaScript, which are essential for creating visually stunning and responsive web interfaces. With these skills, I can design and develop website layouts that are both aesthetically pleasing and functional, ensuring that users have a seamless and engaging experience when using the website.
+<br />
+<br />
+In addition to my front-end development skills, I have also mastered several back-end programming languages, including Node JS, PHP, and Laravel. These technologies allow me to create complex website functionality, such as dynamic data processing, user authentication, and API integration. I have also gained an understanding of REST API, which is a critical aspect of modern web development.
           </p>
         </div>
 

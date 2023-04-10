@@ -29,8 +29,7 @@ function Portfolio() {
               Laravel
             </span>
             <p>
-              was built in laravel and tailwind CSS. This project about online
-              catalog in Computer Store. Created for college project.
+            Built using Laravel and Tailwind CSS this is an online inventory for a computer store. The purpose of the project was to create a platform where administrator can see how many items sold and dashboard for inventory like how many items left in warehouse. The project was developed as part of a college project and was designed to showcase my skills in web development using Laravel and Tailwind CSS.
             </p>
           </div>
           <div className="max-w-screen-xl transition-colors ease-linear shadow-md w-full md:w-1/2">
@@ -209,43 +208,22 @@ function Portfolio() {
               >
                 <SwiperSlide>
                   <Image
-                    src="/assets/portofolio1.png"
+                    src="/assets/bot1.png"
                     width={1200}
                     height={700}
+                    objectFit="contain"
                   />
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <Image
-                    src="/assets/portofolio1.png"
+                    src="/assets/bot2.png"
                     width={1200}
                     height={700}
+                    objectFit="contain"
                   />
                 </SwiperSlide>
 
-                <SwiperSlide>
-                  <Image
-                    src="/assets/portofolio1.png"
-                    width={1200}
-                    height={700}
-                  />
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <Image
-                    src="/assets/portofolio1.png"
-                    width={1200}
-                    height={700}
-                  />
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <Image
-                    src="/assets/portofolio1.png"
-                    width={1200}
-                    height={700}
-                  />
-                </SwiperSlide>
               </Swiper>
             </div>
           </div>

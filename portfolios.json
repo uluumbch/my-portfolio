@@ -2,24 +2,38 @@
   "portfolios": [
     {
       "id": 1,
-      "title": "project 1",
-      "imageSrc": "/assets/portofolio1.png",
-      "url": "portoflio1",
-      "description": "'This project built in laravel and Tailwind CSS framework'"
+      "title": "IT FEST 2022",
+      "imageSrc": "/assets/project2.png",
+      "url": "itfest-22",
+      "description": "'Online ticket sales,  built using Laravel and Tailwind CSS for IT FEST and IT MATSURI 2022 event. <br> This is an annually event from Information Technology Lambung Mangkurat University. <br> The website has sales for around 200 ticket and worth of 9 million rupiah. '",
+      "demo": false,
+      "source_code" : "https://github.com/uluumbch/itfest"
     },
     {
       "id": 2,
-      "title": "project 2",
-      "imageSrc": "/assets/portofolio1.png",
-      "url": "portoflio2",
-      "description": "'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa voluptatibus qui magnam quae distinctio fugiat nihil consequuntur nulla nesciunt accusamus nemo, vitae doloribus rerum asperiores ad illo iusto dignissimos quo eos, id fuga vero. Commodi deleniti praesentium itaque exercitationem ea voluptates, et quasi asperiores dolore maxime repellat culpa? Blanditiis, suscipit? Ad sit quis corporis deleniti optio autem quibusdam quaerat alias ex veritatis molestiae nisi architecto, suscipit quidem soluta tempore dolorum eos amet obcaecati eum rerum? Doloribus atque eaque quibusdam quidem quae autem aut, sunt nobis, tempore dicta quos minus. Animi maxime quia libero incidunt, aspernatur ipsam amet, at inventore ipsum velit, ab voluptatum non omnis cumque doloremque labore. Saepe corporis veniam modi adipisci rerum exercitationem. Quas facilis, quasi molestias vitae, obcaecati accusantium et consectetur nostrum veritatis perspiciatis soluta consequuntur iusto eius repellendus adipisci id quidem aperiam, temporibus voluptate quam dolorum debitis at cumque voluptatibus! Pariatur cum vero, molestiae laudantium iste omnis cupiditate quos consequatur, quod, incidunt nesciunt corrupti vitae natus fuga maxime obcaecati! Soluta accusamus ut eligendi earum optio repellendus inventore deleniti tempora, accusantium quod, sunt totam vel iure odio iusto officiis nulla, quaerat reprehenderit modi iste. Quisquam fugiat iure dolore repellendus totam ad assumenda molestiae quas id eaque.'"
+      "title": "Bot Pengingat Sholat HMTI",
+      "imageSrc": "/assets/bot1.png",
+      "url": "bot-pengigat-sholat-hmti",
+      "description": "A simple bot that can send messages automatically to telegram groups. The bot will send a message (in the form of an image) based on the prayer times that day. Why use Bots? <br /> Bots can send  automatically according to the time we specify. <br /> It doesn't take huge resources to be able to run Bot on local server<br />Bots don't have phone numbers like regular accounts. So it is impossible to get spam.",
+      "demo" : "https://t.me/PengingatSholatHMTI_bot",
+      "source_code" : "https://github.com/uluumbch/bot-pengingat-sholat-hmti"
     },
     {
       "id": 3,
-      "title": "project 3",
+      "title": "Inventory App",
       "imageSrc": "/assets/portofolio1.png",
-      "url": "portoflio2",
-      "description": "'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa voluptatibus qui magnam quae distinctio fugiat nihil consequuntur nulla nesciunt accusamus nemo, vitae doloribus rerum asperiores ad illo iusto dignissimos quo eos, id fuga vero. Commodi deleniti praesentium itaque exercitationem ea voluptates, et quasi asperiores dolore maxime repellat culpa? Blanditiis, suscipit? Ad sit quis corporis deleniti optio autem quibusdam quaerat alias ex veritatis molestiae nisi architecto, suscipit quidem soluta tempore dolorum eos amet obcaecati eum rerum? Doloribus atque eaque quibusdam quidem quae autem aut, sunt nobis, tempore dicta quos minus. Animi maxime quia libero incidunt, aspernatur ipsam amet, at inventore ipsum velit, ab voluptatum non omnis cumque doloremque labore. Saepe corporis veniam modi adipisci rerum exercitationem. Quas facilis, quasi molestias vitae, obcaecati accusantium et consectetur nostrum veritatis perspiciatis soluta consequuntur iusto eius repellendus adipisci id quidem aperiam, temporibus voluptate quam dolorum debitis at cumque voluptatibus! Pariatur cum vero, molestiae laudantium iste omnis cupiditate quos consequatur, quod, incidunt nesciunt corrupti vitae natus fuga maxime obcaecati! Soluta accusamus ut eligendi earum optio repellendus inventore deleniti tempora, accusantium quod, sunt totam vel iure odio iusto officiis nulla, quaerat reprehenderit modi iste. Quisquam fugiat iure dolore repellendus totam ad assumenda molestiae quas id eaque.'"
+      "url": "inventory-app-laravel",
+      "description": "Built using Laravel and Tailwind CSS this is an online inventory for a computer store. The purpose of the project was to create a platform where administrator can see how many items sold and dashboard for inventory like how many items left in warehouse. The project was developed as part of a college project and was designed to showcase my skills in web development using Laravel and Tailwind CSS.",
+      "demo": false,
+      "source_code" : "https://github.com/uluumbch/toko-komputer-laravel"
+    },{
+      "id": 4,
+      "title": "Infinite Scroll App",
+      "imageSrc": "/assets/infinitescroll1.png",
+      "url": "infinite-scroll-app",
+      "description": "This simple project is created for demonstration about fetching 1 milion data super fast with query limit. the goal of this project is to create a REST API that can fetch data quickly even if it has a lot of data. This project use Express js for Backend and React for Frontend and the data stored in database using MySQL. I also use Tailwind CSS for styling.",
+      "demo":"http://infinite-scroll.uluumbch.my.id/",
+      "source_code": "https://github.com/uluumbch/infinite-scroll-app"
     }
   ]
 }
