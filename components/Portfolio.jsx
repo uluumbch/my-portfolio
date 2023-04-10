@@ -15,9 +15,9 @@ function Portfolio() {
         <h2 className="text-4xl md:text-7xl tracking-wider uppercase text-color-accent font-extrabold">
           Portfolio
         </h2>
-        <p className="pb-5">
+        {/* <p className="pb-5">
           Here is some project that i have build for past 2 years.
-        </p>
+        </p> */}
 
         <div className="flex items-center md:flex-row flex-col-reverse md:justify-between">
           <div className="text-lg text-justify md:pl-0 p-4 md:w-1/2">

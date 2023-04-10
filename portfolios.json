@@ -34,6 +34,14 @@
       "description": "This simple project is created for demonstration about fetching 1 milion data super fast with query limit. the goal of this project is to create a REST API that can fetch data quickly even if it has a lot of data. This project use Express js for Backend and React for Frontend and the data stored in database using MySQL. I also use Tailwind CSS for styling.",
       "demo":"http://infinite-scroll.uluumbch.my.id/",
       "source_code": "https://github.com/uluumbch/infinite-scroll-app"
+    },{
+      "id": 5,
+      "title": "Sistem Informasi Rumahs Susun (SIRUSUN)",
+      "imageSrc": "/assets/rusunawa.png",
+      "url": "Sistem-Informasi-Rumahs-Susun-SIRUSUN",
+      "description": "SIRUSUN is an app for managing rumah susun (apartments/flats) in Teluk Kelayan Banjarmasin. <br> This application also won an award in the DISPORSENI UT 2022 competition as the 3rd runner-up winner in the field of information technology",
+      "demo":false,
+      "source_code": "https://github.com/uluumbch/SI_RUSUN"
     }
   ]
 }

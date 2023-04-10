@@ -1,11 +1,9 @@
-import { useRouter } from "next/router";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
-import portfolio1 from "../../public/assets/portofolio1.png";
 import myportfolios from "../../portfolios.json";
 
 const { portfolios } = myportfolios;
